@@ -71,6 +71,51 @@
         .row {
             margin-top: 10px;
         }
+
+        .col-md-4 {
+            margin: 5px;
+        }
+
+        .card {
+            position: relative;
+        }
+
+        .card-title {
+            position: absolute;
+            top: 120px;
+            left: 0px;
+            text-align: center;
+            background: #48a0b5;
+            font-size: 38px;
+            width: 100%;
+            color: #ebebeb;
+
+        }
+        .col-sm-4 {
+            background: #ffffff; 
+            padding: 20px;
+        }
+        .Portfolio {
+            position: relative;
+            background: #ffffff;
+        }
+
+        #Bold {
+            background: #48a0b5;
+            color: #ffffff;
+            text-align: center;
+            /* opacity: .9; */
+            font-size: 24px;
+            position: absolute;
+            bottom: 25%;
+            width: 100%;
+            
+        }
+
+        .img-thumbnail{
+            width: 100%;
+            
+        }
     </style>
 </head>
 
@@ -108,37 +153,45 @@
 
     <div class="container">
         <div class="row">
-            <!-- <div class="col-2"></div> -->
             <div class="col-8">
                 <h1>Portfolio</h1>
             </div>
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <div class="col-sm-4"></div>
-            <div class="col-lg-12" style="background: #ffffff; padding: 20px;">
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="Portfolio"><img src="images/Brazil.jpg" alt="Word Guess" class="img-thumbnail">
+                    <div><h1 id="Bold">Word Guess</h1></div>
+                    <p></p>
+                </div>
+                <div class="Portfolio"><img src="images/Cat.jpg" alt="Brazil" class="img-thumbnail">
+                    <div><h1 id="Bold">RPG Game</h1></div>
+                    <p></p>
+                </div>
 
-                <img src="images/Brazil.jpg" alt="Brazil" class="img-thumbnail" style="margin-left: 10px; padding: 10px;">
-                <img src="images/Cat.jpg" alt="Cat" class="img-thumbnail" style="margin-left: 10px; padding: 10px;">
-                <img src="images/Dog.jpg" alt="Dog" class="img-thumbnail" style="margin-left: 10px; padding: 10px;">
-                <img src="images/Dog.jpg" alt="Dog" class="img-thumbnail" style="margin-left: 10px; padding: 10px;">
-                <img src="images/Brazil.jpg" alt="Brazil" class="img-thumbnail" style="margin-left: 10px; padding: 10px;">
-                <img src="images/Cat.jpg" alt="Cat" class="img-thumbnail" style="margin-left: 10px; padding: 10px;">
-            
+            </div>
+            <div class="col-sm-4">
+                    <div class="Portfolio"><img src="images/Dog.jpg" alt="Brazil" class="img-thumbnail">
+                        <div><h1 id="Bold">Triva Game</h1></div>
+                        <p></p>
+                    </div>
+                    <div class="Portfolio"><img src="images/Brazil.jpg" alt="Brazil" class="img-thumbnail">
+                        <div><h1 id="Bold">Info Widget</h1></div>
+                        <p></p>
+                    </div>
+    
             </div>
 
-
-
-
-
+            <div class="col-sm-4">
+                    <div class="Portfolio"><img src="images/Cat.jpg" alt="Brazil" class="img-thumbnail">
+                        <div><h1 id="Bold">Rock Paper Scissors</h1></div>
+                        <p></p>
+                    </div>
+               
+            </div>
         </div>
 
 
-
     </div>
-
-
-
-
 
     <div class="row"></div>
     </div>
