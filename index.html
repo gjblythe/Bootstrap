@@ -69,11 +69,44 @@
         }
 
         img {
-            margin-left: 9%;
+            margin-left: 35px;
         }
         
         .row{
             margin-top: 10px;
+        }
+
+        h1 {
+            color: #48a0b5;
+        }
+
+        .col-lg-12 {
+            padding-bottom: 20px;
+        }
+        
+        .col-sm-4 {
+            background: #ffffff;
+            padding: 20px;
+            
+        
+        }
+
+        .col-sm-6 {
+            background: #ffffff;
+            padding: 20px;
+            
+        }
+
+        /* p {
+            text-indent: 50px;
+        } */
+
+        #noIndent {
+            text-indent: 0;
+        }
+
+        #foot {
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -112,30 +145,41 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="jumbotron">
-                    <h1 class="display-4">About Me</h1>
-
-
-                    <p class="lead">
-                        Where does a former cook, tire tech, tattooer, and retail manager go when they hit the glass celing? The U of A coding boot
-                        camp of course. A new father looking to get back into technology and forge new skills for a world
-                        outside brick and motar.</p>
-
+            <div class="col-lg-12"><h1>About Me</h1>
+                </div>
+        
+                <div class="col-sm-4">
                     <div class="thumbnail">
                         <a href="images/Catalina.jpg">
                             <img src="images/Catalina.jpg" alt="Bio" style="width:80%;">
                         </a>
                     </div>
-                    <hr class="my-4">
-                    <p>Excited to begin this new journey. With the full support of my kickass wife, I cannot wait to dive into
-                        a new and challenging field.</p>
                 </div>
-            </div>
-        </div>
-        </div>
 
-        <div class="card text-center">
+                <div class="col-sm-6">
+                    <p class="lead">
+                        Where does a former cook, tire tech, tattooer, and retail manager go when they hit the glass celing?</p>
+                        <hr>
+                        <p class="lead" id="noIndent">The U of A coding bootcamp of course.</p>
+                        <hr>
+                        <p class="lead">A new father looking to get back into technology and forge new skills for a world
+                        outside brick and motar.</p>
+
+                        <p class="lead">
+                                Excited to begin this new journey. With the full support of my kickass wife, I cannot wait to dive into
+                                a new and challenging field.
+                        </p>
+                    </div>
+                </div>
+
+               
+
+                
+               
+        </div>
+       
+
+        <div class="card text-center" id="foot">
             <div class="card-header">
                 <a class="icon" href="https://github.com/gjblythe">
                     <i class="fab fa-github"></i>
